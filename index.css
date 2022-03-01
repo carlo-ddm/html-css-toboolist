@@ -1,9 +1,72 @@
+body{
+  background-color: #F4F6F7;
+  font-style: arial;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+nav, main {
+  background-color: white;
+  width: 70%;
+  min-width: 70%;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
 /* HEADER */
 
+header {
+  background-color: white;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+}
+
+ header h1 {
+  display: inline-block;
+  font-size: 40px;
+  /* chiedi font */
+}
+
+/* NAV */
+nav {
+  margin-bottom: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+
+.bot {
+  margin: 2px;
+  border: 0;
+  border-radius: 10%;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+.bot.task {
+  background-color: #3B9BED;
+  color: white;
+}
+
+.bot.section {
+  background-color: white;
+  border: 1px solid lightgrey;
+  color: grey;
+}
+
 /* MAIN */
+
+
