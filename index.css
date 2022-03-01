@@ -84,11 +84,18 @@ h2 {
 .check {
   margin-bottom: 20px;
   color: #3BB193;
-  border-radius: 50%;
 }
 
 .check::before {
   content: '\02713';
+}
+
+.no.check {
+  color: red;
+}
+
+.no.check::before {
+  content: '\10102';
 }
 
 .row {
