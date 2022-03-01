@@ -14,12 +14,11 @@ nav, main {
   width: 70%;
   min-width: 70%;
   margin: 0 auto;
-  padding: 50px;
+  padding: 45px;
   box-sizing: border-box;
 }
 
 /* HEADER */
-
 header {
   background-color: white;
   width: 100%;
@@ -51,7 +50,7 @@ nav {
   margin: 2px;
   border: 0;
   border-radius: 10%;
-  padding: 5px 15px;
+  padding: 10px 15px;
   box-sizing: border-box;
   font-size: 10px;
 }
@@ -64,9 +63,36 @@ nav {
 .bot.section {
   background-color: white;
   border: 1px solid lightgrey;
-  color: grey;
+  color: lightgrey;
 }
 
 /* MAIN */
+h2 {
+  display: inline-block;
+  color: #2E3037;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  margin-bottom: 20px;
+}
+
+.arrow::before {
+  content: '\25BC';
+}
+
+.check {
+  margin-bottom: 20px;
+  color: #3BB193;
+  border-radius: 50%;
+}
+
+.check::before {
+  content: '\02713';
+}
+
+.row {
+  color: #2E3037;
+}
 
 
