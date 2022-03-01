@@ -88,6 +88,8 @@ h2 {
 
 .check::before {
   content: '\02713';
+  border: 1px solid #3BB193;
+  border-radius: 100%;
 }
 
 .no.check {
@@ -96,10 +98,49 @@ h2 {
 
 .no.check::before {
   content: '\10102';
+  border: 1px solid red;
+  border-radius: 100%;
 }
 
 .row {
   color: #2E3037;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+
+.colored {
+  display: inline-block;
+  width: auto;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  border: 0px solid lightgray;
+  border-radius: 10%;
+  color: white;
+}
+
+.blu {
+  background-color: #3B9BED;
+}
+
+.purple {
+  background-color: #8A58DD;
+}
+
+.salvia {
+  background-color: #55B598;
+}
+
+.orange {
+  background-color: #EB8C28;
+}
+
+.pink {
+  background-color: #CC4A90;
+}
+
+.lightgreen {
+  background-color: #A2C21D;
 }
 
 
